@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view_friend"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="10dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/school_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <TextView
+            android:id="@+id/sat_critical_reading_avg_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@+id/school_name"
+
+            />
+
+        <TextView
+            android:id="@+id/sat_math_avg_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sat_critical_reading_avg_score"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <TextView
+            android:id="@+id/sat_writing_avg_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sat_math_avg_score"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+
+            />
+
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
